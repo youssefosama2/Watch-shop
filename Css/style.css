@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;    
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(189, 189, 189);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar a:hover{
+    background-color: #FF2020;
+}
+.hero{
+  background-color: #F6F6F6;
+}
+.hero .title{
+    padding: 70px 0;
+}
+.hero h1{
+    font-size: 70px;
+    color: rgb(9, 9, 63);
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF2020;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+@media(min-width: 768px){
+    .hero .title{
+        margin-top: 150px;
+        padding: 100px 0;
+    }
+}
+@media(max-width: 992px){
+    .New-product img{
+        width: 300px;
+    }
+    .gallery-img img{
+        width: 100%;
+        margin-top: 18px;
+    }
+}
+@media(min-width: 992px){
+    .New-product img{
+        width: 340px;
+    }
+    .right-img .img2 img{
+        margin-left: 20px;
+    }
+    .choce_watch .title{
+        margin-top: 150px;
+    }
+}
+@media(max-width: 768px){
+    .hero h1{
+        font-size: 30px;
+    }    
+    .New-product img{
+        width: 100%;
+    }
+}
+.New-product .title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.New-product .title span{
+    color: #FF2020;
+    font-size: 20px;
+}
+/* Start products */
+.products .title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.products .Add-cart img{
+    border-bottom: 3px solid #FF2020;
+    z-index: -1;
+    width: 100%;
+}
+.products .Add-cart div{
+    position: relative;
+    margin: 10px 0;
+}
+.products .Add-cart div i{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 30px;
+    display: none;
+}
+.products .Add-cart div a{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    background-color: #FF2020;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.products .Add-cart div:hover a{
+  display: block;
+}
+.products .Add-cart div:hover i{
+    display: block;
+}
+.products div h3{
+    text-align: center;
+    font-size: 20px;
+}
+.products div p{
+    text-align: center;
+    font-size: 20px;
+}
+/* End products */
+.choce_watch .title{
+    margin-bottom: 20px;
+}
+.choce_watch .title a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF2020;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.choce_watch .title a:hover{
+    background-color: #e92121;
+}
+.choce_watch .title p{
+    color: #8a8989;
+}
+/* Start vidoe_more */
+.vidoe_more{
+  background: url(../img/gallery/vidoe_more.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.vidoe_more i{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.vidoe_more h5{
+    color: white;
+    margin: 10px 0;
+}
+.vidoe_more p{
+    color: rgb(212, 212, 212);
+}
+/* Start footer */
+footer h6{
+    color: black;
+}
+footer a{
+  text-decoration: none;
+  color: #6C757D;
+  margin-left: 15px;
+}
+footer a:hover{
+  color:#FF2020 ;
+}
+footer .Copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+footer .Copyright p{
+  margin-top: 10px;
+}
+footer .Copyright i{
+  color: red;
+}
+/* end Footer */
